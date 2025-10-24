@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Calendar</string>
+    <string name="welcome_to_task_scheduler">WELCOME TO TASK SCHEDULER</string>
+    <string name="releases_time_for_great_affairs">Releases time for great affairs</string>
+    <string name="get_started">GET STARTED</string>
+    <string name="tue_nov_21_2020">Tue, Nov 21 2020</string>
+    <string name="create_new_task">CREATE NEW TASK</string>
+    <string name="name">Name</string>
+    <string name="enter_task_name">Enter task name</string>
+    <string name="date">Date</string>
+    <string name="select_date">Select date</string>
+    <string name="starting_time">Starting Time</string>
+    <string name="select_time">Select time</string>
+    <string name="remind_me">Remind Me</string>
+    <string name="category">Category</string>
+    <string name="life">Life</string>
+    <string name="work">Work</string>
+    <string name="study">Study</string>
+    <string name="event">Event</string>
+    <string name="create_task">CREATE TASK</string>
+    <string name="back_button">Back button</string>
+    <string name="calendar_illustration">Calendar illustration</string>
+    <string name="open_date_picker">Open date picker</string>
+    <string name="open_time_picker">Open time picker</string>
+    <string name="reminder_icon">Reminder icon</string>
+    <string name="psychology_of_dreams">Psychology of dreams</string>
+    <string name="may_15_2020">May 15, 2020</string>
+</resources>

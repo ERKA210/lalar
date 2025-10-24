@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Base.Theme.TaskScheduler" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/FF016A</item>
+        <item name="colorPrimaryDark">@color/purple_500</item>
+        <item name="colorAccent">@color/pink</item>
+
+        <!-- Status bar -->
+        <item name="android:statusBarColor">?attr/colorPrimaryDark</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+
+        <!-- Navigation bar -->
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <!-- App main theme -->
+    <style name="Theme.TaskScheduler" parent="Base.Theme.TaskScheduler">
+        <item name="android:windowBackground">@color/butter</item>
+        <item name="android:colorBackground">@color/butter</item>
+    </style>
+
+    <!-- NoActionBar Theme for activities without action bar -->
+    <style name="Theme.TaskScheduler.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/FF016A</item>
+        <item name="colorPrimaryDark">@color/purple_500</item>
+        <item name="colorAccent">@color/pink</item>
+        <item name="android:windowBackground">@color/butter</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryDark</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <!-- Splash Screen Theme -->
+    <style name="Theme.TaskScheduler.Splash" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/face</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+
+</resources>

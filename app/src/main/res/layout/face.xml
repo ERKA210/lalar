@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/face">
+
+    <TextView
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/welcome_to_task_scheduler"
+        android:textSize="40sp"
+        android:layout_marginTop="150dp"
+        android:textFontWeight="700"
+        android:textColor="@color/black">
+    </TextView>
+
+    <TextView
+        android:layout_width="248dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/releases_time_for_great_affairs"
+        android:textFontWeight="400"
+        android:textSize="20sp"
+        android:textColor="@color/black">
+    </TextView>
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="313dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/get_started"
+        android:text="@string/get_started"
+        android:textColor="@color/white"></Button>
+</LinearLayout>
